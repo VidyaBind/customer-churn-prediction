@@ -111,8 +111,8 @@ The ANN model is deployed as an interactive **Streamlit** app — enter a custom
 ### Run locally
 
 ```bash
-git clone https://github.com/<your-username>/<repo-name>.git
-cd <repo-name>
+git clone https://github.com/VidyaBind/customer-churn-prediction.git
+cd customer-churn-prediction
 pip install -r requirements.txt
 streamlit run app.py
 ```
