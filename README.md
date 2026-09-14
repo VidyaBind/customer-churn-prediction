@@ -106,9 +106,7 @@ Confusion matrices were plotted for every model to visualize prediction errors a
 
 ## 🚀 Deployment
 
-The ANN model is live as an interactive **Streamlit** app — enter a customer's profile and get an instant churn prediction with probability.
-
-**🔗 Live app:** *(add your Streamlit Community Cloud link here once deployed)*
+The ANN model is deployed as an interactive **Streamlit** app — enter a customer's profile and get an instant churn prediction with probability.
 
 ### Run locally
 
@@ -132,7 +130,7 @@ churn-prediction/
 ├── scaler.pkl                 # Saved StandardScaler (for preprocessing new inputs)
 ├── notebook.ipynb             # Full analysis: EDA, feature engineering, model training & comparison
 ├── data/
-│   └── churn_data.csv         # Raw dataset
+│   └── Churn_Modelling.csv    # Raw dataset
 └── README.md                  # You are here
 ```
 
@@ -175,4 +173,3 @@ churn-prediction/
 
 📧 vidyabind50@gmail.com
 
-⭐ *If you found this project useful, consider giving it a star!*
