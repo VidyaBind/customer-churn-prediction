@@ -156,16 +156,7 @@ churn-prediction/
 - 🌳 Ensemble/non-linear models (Random Forest, XGBoost, ANN) clearly outperformed simpler linear models on recall and F1 — churn isn't well captured by linear relationships alone.
 - ⚖️ All models struggle more with **recall** than precision — a notable share of actual churners are still missed, a common challenge with imbalanced classes.
 
----
-
-## 🔮 Future Improvements
-
-- [ ] Hyperparameter tuning (GridSearchCV / Keras Tuner) to boost recall
-- [ ] Handle class imbalance with SMOTE or class weighting
-- [ ] Add SHAP values for model explainability
-- [ ] Migrate to a production backend (FastAPI/Flask) with prediction logging
-
----
+------
 
 ## 👤 Author
 
